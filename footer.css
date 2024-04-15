@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0055b8;
+  padding: 8px;
+  font-size: 15px;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+@media (max-width:991px) {
+  .footer [class^=col-] {
+    margin-bottom: 25px
+  }
+}
+
+@media (max-width:767px) {
+  .footer {
+    padding-bottom: 0
+  }
+
+}
